@@ -6,6 +6,7 @@ project("lib${FORMAT_NAME}")
 set("PROJECT_DESCRIPTION" "A library to parse gettext/libintl ${FORMAT_NAME} format")
 set("PROJECT_HOMEPAGE_URL" "https://codeberg.org/KOLANICH-tools/lib${FORMAT_NAME}.cpp")
 set(CPACK_PACKAGE_VENDOR "KOLANICH")
+message(STATUS "We have moved from M$ GitHub to ${PROJECT_HOMEPAGE_URL}, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo . ")
 
 set(CPACK_PACKAGE_VERSION_MAJOR "0")
 set(CPACK_PACKAGE_VERSION_MINOR "0")
